@@ -1,19 +1,61 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
-const MealSuggestion = ({ menu }) => {
-  const [input, setInput] = useState('');
-  const [suggestion, setSuggestion] = useState([]);
+const MealSuggestion = () => {
+  const [input, setInput] = useState("");
+  const [suggestion, setSuggestion] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   const handleInputChange = (e) => {
     setInput(e.target.value);
   };
 
-  const handleSuggestion = () => {
-    const filteredItems = menu
-      .flatMap((category) => category.items)
-      .filter((item) => item.description.toLowerCase().includes(input.toLowerCase()));
+  const handleSuggestion = async () => {
+    setLoading(true);
+    setError(null);
 
-    setSuggestion(filteredItems);
+    const apiKey = process.env.REACT_APP_OPENAI_API_KEY; // Access API key from .env
+
+    if (!apiKey) {
+      setError("API Key is missing or incorrect.");
+      setLoading(false);
+      return;
+    }
+
+    try {
+      // Make a direct POST request to OpenAI's API
+      const response = await fetch("https://api.openai.com/v1/completions", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${apiKey}`,  // Use API key from environment variable
+        },
+        body: JSON.stringify({
+          model: "gpt-3.5-turbo",  // Or "gpt-4" if you have access
+          messages: [
+            {
+              role: "system",
+              content: "You are an assistant that helps suggest meals based on dietary preferences.",
+            },
+            {
+              role: "user",
+              content: `Suggest a meal based on these preferences: ${input}`,
+            },
+          ],
+        }),
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+        setSuggestion(data.choices[0].message.content);
+      } else {
+        setError("Failed to fetch meal suggestion.");
+      }
+    } catch (error) {
+      setError("Error connecting to OpenAI API.");
+      console.error(error);
+    }
+    setLoading(false);
   };
 
   return (
@@ -25,12 +67,13 @@ const MealSuggestion = ({ menu }) => {
         value={input}
         onChange={handleInputChange}
       />
-      <button onClick={handleSuggestion}>Suggest Meal</button>
-      <ul>
-        {suggestion.map((item) => (
-          <li key={item.title}>{item.title}</li>
-        ))}
-      </ul>
+      <button onClick={handleSuggestion} disabled={loading}>
+        {loading ? "Suggesting..." : "Suggest Meal"}
+      </button>
+      <div className="suggestion-results">
+        {suggestion && <p>{suggestion}</p>}
+        {error && <p className="error">{error}</p>}
+      </div>
     </div>
   );
 };
