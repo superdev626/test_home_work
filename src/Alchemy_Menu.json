@@ -1,0 +1,1382 @@
+{
+    "restaurant": {
+      "name": "Alchemy",
+      "description": "Alchemy is dedicated to providing a transformative experience through nourishing food, rejuvenating practices, and a nurturing environment. We guide individuals towards their highest potential and well-being, benefiting both themselves and the community around them. Our vision is to cultivate a community that is deeply connected to the wisdom of nature - where individuals find healing, health, purpose, and joy through conscious choices and nourishing experiences.",
+      "website": "www.AlchemyBali.com",
+      "notes": "Our menu is fully plant-based and mostly gluten free. Some dishes are raw (not heated above 43°C / 110°F). All prices are subject to 6% service charge and 10% government tax.",
+      "location": "",
+      "phone": ""
+    },
+    "menu": [
+      {
+        "category": "Soups",
+        "items": [
+          {
+            "title": "Turmeric Laksa",
+            "description": "Creamy coconut, ginger, chili broth with veggie noodles, spinach, mushrooms & cilantro",
+            "price": 527,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Medicinal Miso",
+            "description": "Flavorful broth, bok choi, zucchini noodles, dried sesame mushrooms & nori",
+            "price": 527,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Cream of Mushroom",
+            "description": "Champignon, portabello, shiitake and reishi soup. Add a multiseed cracker topped with papaya lox and pili nut cream cheese (+35k).",
+            "price": 527,
+            "imageUrl": "",
+            "tags": ["Beegan", "Contains Nuts", "Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "Salads",
+        "items": [
+          {
+            "title": "Asian \"Chicken\" Salad",
+            "description": "Jackfruit \"chicken\", romaine, carrots & pickled ginger sprinkled with spring onion, cilantro, crispy sunflower noodles & tossed with creamy sesame ginger dressing",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Alchemy Lover",
+            "description": "Mixed greens, fresh herbs, fresh corn, pink sauerkraut, avocado, sprouted pumpkin seeds, crispy sesame onion & herb vinaigrette",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Avocado Caesar",
+            "description": "Crisp romaine lettuce with avocado, pili nut rawmesan, coconut bacon, capers & creamy Caesar dressing",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Hallou&mi Salad with Beets",
+            "description": "Seasoned chickpeas, roasted beets, mixed greens, capers, pili nut hallou&mi & pumpkin seeds with honey mustard dressing",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Beegan", "Gluten Free", "Contains Nuts"]
+          }
+        ]
+      },
+      {
+        "category": "Mains",
+        "items": [
+          {
+            "title": "Poke Bowl",
+            "description": "Cauliflower or brown rice, edamame, cucumber, radish, sesame nori, \"tuna\", avocado, purple cabbage, toasted sesame, pickled ginger, Asian sesame vinaigrette and mayonnaise",
+            "price": 593,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Teriyaki Bowl",
+            "description": "Smoked papaya salmon with brown rice or sesame cauliflower ‘rice’, kimchi, carrot slaw, avocado and teriyaki sauce",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Smokey Burger",
+            "description": "Tender smokey jackfruit patty stacked with homemade pickles, tomato, caramelized onion, lettuce, secret sauce & served with potato wedges",
+            "price": 633,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Spinach & Mushroom Pizza",
+            "description": "Thin spinach crust topped with mushrooms, spinach, pickled shallots, capers and pili nut cheeze",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts"]
+          },
+          {
+            "title": "Aloha Pizza",
+            "description": "Sun dried tomato crust, marinara sauce, cashew cream cheeze, pineapple, peppers, olives, mushrooms & rocket",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Philadelphia Maki Nori",
+            "description": "Nori rolls filled with brown rice or cauliflower sesame ‘rice’, smokey papaya, homemade pickles, creamy cashew dill cheeze, served with sesame shoyu dip & small miso soup",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Pasta Primavera",
+            "description": "Zucchini noodles, cherry tomatoes, sun-dried tomatoes, capers, avocado, pili nut rawmesan & tarragon mint pesto. Cooked option change for gluten free noodles",
+            "price": 593,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Mediterranean Wrap",
+            "description": "Flax wrap filled with spinach, dill cream, fresh veggies, and avocado. Served with cauliflower tabbouleh and tahini lime dip",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Jackfruit Wrap",
+            "description": "Flax wrap filled with tasty bbq jackfruit, avocado, fresh veggies and sour cream",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Papaya Spring Rolls",
+            "description": "Assorted fresh veggies in a raw papaya wrap & sesame hoisin dip, served with small soup of the day",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Green Curry",
+            "description": "Gently cooked veggies in a green coconut milk curry with kaffir lime, chili and lemongrass. Served with steamed brown rice and cashew basil crisps",
+            "price": 593,
+            "imageUrl": "",
+            "tags": ["Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Open \"Tuna\" Sandwich",
+            "description": "Jackfruit ‘tuna’ with sesame mayo and capers on gluten free sweet potato toast. Side salad with avocado and greens",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Spinach Mushroom Quiche",
+            "description": "An Alchemy classic filled with juicy spinach, mushrooms & marinated fennel, topped with cashew cream cheeze, tomato & parsley. Side salad with avo and herb vinaigrette",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Falafel Protein Bowl",
+            "description": "Home-made falafel, quinoa, steamed broccoli, baked pumpkin, kale tahini, rosemary raisin almond walnut trail mix, spirulina crunchies, hummus and herb vinaigrette",
+            "price": 700,
+            "imageUrl": "",
+            "tags": ["Contains Nuts", "Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "All Day Breakfast",
+        "items": [
+          {
+            "title": "Fluffy Waffle",
+            "description": "Gluten free waffle with coconut whip, coconut blossom nectar, strawberries, banana and your choice of caramel or chocolate sauce",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Banana Taro Pancakes",
+            "description": "Gluten free pancakes with coconut whip, apple compote and caramel sauce",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Champion Breakfast Plate",
+            "description": "Sunny side up ‘egg’, veggie hotcake, jackfruit sausage, spinach fennel, onion, garlic mushrooms, avocado, tomato confit and sesame hummus",
+            "price": 593,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Chia Pudding",
+            "description": "Layers of chia with almond milk, fruits/berries and coconut whip",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Shakshuka",
+            "description": "Potato, tomato and butternut squash casserole with chickpeas, vegan egg & garlic bread",
+            "price": 527,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Green Waffle",
+            "description": "Gluten free spinach waffle, avocado, semi dried tomatoes, sauerkraut, pickled shallot & coconut feta",
+            "price": 567,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Açaí Bowl",
+            "description": "Smoothie bowl with wild açaí berries, banana, tropical cashew grawnola and cacao nibs",
+            "price": 860,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "Sides",
+        "items": [
+          {
+            "title": "Avocado",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Cracker",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Sauerkraut",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Raw Jicama Fries",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Veggie Hotcakes",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Brown Rice",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Sunflower Grissini",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Small Soup",
+            "description": "",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Slice of Raw Pizza",
+            "description": "",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Raw", "Contains Nuts"]
+          },
+          {
+            "title": "Coconut Feta",
+            "description": "",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Quinoa",
+            "description": "",
+            "price": 233,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Falafel",
+            "description": "",
+            "price": 260,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Kimchee",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Pili Nut Hallou&mi",
+            "description": "",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Pili Nut Mozarella",
+            "description": "",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Gluten Free Toast & Vegan Butter",
+            "description": "",
+            "price": 200,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Dip / Dressing or Sauce",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Flaxseed Cracker (with pili nut cream cheeze & carrot lox)",
+            "description": "",
+            "price": 233,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          }
+        ]
+      },
+      {
+        "category": "Pizza",
+        "items": [
+          {
+            "title": "Margherita",
+            "description": "Tomato sauce, pili nut mozzarella & basil",
+            "price": 593,
+            "imageUrl": "",
+            "tags": ["Contains Nuts"]
+          },
+          {
+            "title": "The Greek",
+            "description": "Tomato sauce, fresh tomatoes, Kalamata olives, bell pepper, coconut mozzarella, coconut feta, basil, greens",
+            "price": 700,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Spinach & Mushroom",
+            "description": "Tomato sauce, spinach, capers, mushrooms, pili nut mozzarella, pickled shallot. Fully raw and gluten free option available with thin spinach crust and pili nut cream cheese",
+            "price": 700,
+            "imageUrl": "",
+            "tags": ["Contains Nuts"]
+          },
+          {
+            "title": "Aloha",
+            "description": "Tomato sauce, pilinut cream cheese, pineapple, bell peppers, olives, mushrooms & arugula. Fully raw & gluten free option available with sun-dried tomato crust and cashew cream cheese",
+            "price": 700,
+            "imageUrl": "",
+            "tags": ["Contains Nuts"]
+          },
+          {
+            "title": "Al Tonno",
+            "description": "Tomato sauce, jackfruit 'tuna', capers, onion, and coconut mozzarella",
+            "price": 733,
+            "imageUrl": "",
+            "tags": ["Contains Nuts"]
+          },
+          {
+            "title": "Pumpkin Moringa",
+            "description": "Tomato sauce, miso roasted pumpkin, moringa leaves, coconut mozzarella & pink sauerkraut",
+            "price": 733,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Capricciosa",
+            "description": "Tomato sauce, smoked tofu, cherry tomato confit, champignon mushrooms, black olives, pilinut mozzarella",
+            "price": 733,
+            "imageUrl": "",
+            "tags": ["Contains Nuts"]
+          }
+        ]
+      },
+      {
+        "category": "Desserts",
+        "items": [
+          {
+            "title": "Banoffee Pie",
+            "description": "Rich toffee, thin banana slices & fluffy pili nut whipped cream",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Chocolate Pie",
+            "description": "Cookie crust, smooth chocolate filling, ganache and fluffy coconut whip",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Vanilla Cheezecake Passionfruit Coulis",
+            "description": "Fermented vanilla cashew cheesecake with almond crust and passionfruit coulis",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Vanilla Cheezecake with Raspberry Compote",
+            "description": "Fermented vanilla cashew cheesecake with almond crust and raspberry compote",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Lemon Coconut Cake",
+            "description": "A cashew coconut cheezecake with lemon zest",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Vegan Cookie",
+            "description": "Ask staff for the vegan & gluten free cookie of the day",
+            "price": 260,
+            "imageUrl": "",
+            "tags": ["Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Snickers Pie",
+            "description": "Chocolate ganache, cashew nougat, caramel and peanuts",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Contains Nuts", "Gluten Free"]
+          },
+          {
+            "title": "Carrot Cake",
+            "description": "Rich and moist almond carrot cake with a hint of cardamom and fresh cream cheeze frosting",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Gluten Free", "Beegan"]
+          },
+          {
+            "title": "Raw Carrot Cake",
+            "description": "Hearty oat and carrot cake with dates and raisins. Topped with mango frosting",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Chocolate Mousse",
+            "description": "Silky smooth, fluffy & nut-free",
+            "price": 260,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Mochaholic",
+            "description": "Silky chocolate coffee cheeze cake",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Chocolate Orange Cake",
+            "description": "Layers of dark chocolate and zesty orange cashew cake",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          }
+        ]
+      },
+      {
+        "category": "Truffles",
+        "items": [
+          {
+            "title": "English Toffee",
+            "description": "Rich and buttery toffee covered in dark raw chocolate",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Alligator Bite",
+            "description": "Filled with nougat, peanuts, caramel and covered in dark chocolate",
+            "price": 220,
+            "imageUrl": "",
+            "tags": ["Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Peanut Butter Cup",
+            "description": "Crunchy peanut butter filling in cashew coconut m!lk chocolate",
+            "price": 220,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Nutella Truffle",
+            "description": "Silky smooth cashew, hazelnut chocolate fudge",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Dark Mint",
+            "description": "Dark, smooth, and rich raw chocolate with a delightful peppermint flavor",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Gremlin",
+            "description": "Sprouted hazelnut and chocolate cashew toffee rolled in crunchy wafer and dipped in m!lk chocolate",
+            "price": 220,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Rum Raisin",
+            "description": "Dark chocolate with a divine chewy cashew rum raisin center",
+            "price": 193,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Chocolate Bomb",
+            "description": "Chocolate energy ball with a hint of coffee, rolled in coconut",
+            "price": 220,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "M!lk",
+            "description": "Milky smooth raw chocolate cashew truffle. You won't believe it's vegan!",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Marbled Halva",
+            "description": "Sweet sesame treat with streaks of cacao and caramelized orange zest",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Dark & Salty Almond",
+            "description": "Sprouted, salted almonds covered in dark almond chocolate",
+            "price": 147,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Salted Caramel",
+            "description": "Smooth coconut nectar toffee covered in dark chocolate and a sprinkle of salt",
+            "price": 147,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Walnut Toffee",
+            "description": "Chewy toffee, rich dark raw chocolate and activated walnuts",
+            "price": 220,
+            "imageUrl": "",
+            "tags": ["Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Peppermint Pattie",
+            "description": "A creamy cashew mint filling covered in dark chocolate",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Lucky Charm",
+            "description": "Sugar-free date log with sprouted nuts and seeds",
+            "price": 167,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          }
+        ]
+      },
+      {
+        "category": "Chocolate Bars",
+        "items": [
+          {
+            "title": "Almond Goji Bar",
+            "description": "Power bar with nuts, seeds, goji berries & coconut blossom nectar",
+            "price": 260,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Alligator Bar",
+            "description": "Filled with nougat, peanuts, caramel and covered in dark raw chocolate",
+            "price": 293,
+            "imageUrl": "",
+            "tags": ["Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Omega Brownie",
+            "description": "Walnut & chia brownie with chocolate ganache",
+            "price": 260,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Chewy Bar",
+            "description": "Dark chewy chocolate cashew bar",
+            "price": 260,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Galaxy M!lk",
+            "description": "Our homemade crispy thin wafers dipped in cashew m!lk chocolate",
+            "price": 260,
+            "imageUrl": "",
+            "tags": ["Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Galaxy Dark",
+            "description": "Our homemade crispy wafers dipped in dark chocolate",
+            "price": 260,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Bounty Bar",
+            "description": "Chocolate covered bar with fresh coconut vanilla filling",
+            "price": 293,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Carob Raisin Bar",
+            "description": "Chewy chocolate bar with carob, cashews & raisins",
+            "price": 293,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          }
+        ]
+      },
+      {
+        "category": "Raw Sorbet",
+        "items": [
+          {
+            "title": "Mango Tango",
+            "description": "Mango, coconut water, raspberry & coconut nectar",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Banana Bomb",
+            "description": "Banana, lime & palm nectar",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Açaí Fantasy",
+            "description": "Wild açaí & banana topped with berries",
+            "price": 660,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Bubble Gum",
+            "description": "Dragonfruit, banana, orange, raspberries & coconut nectar",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "Ice Cream Sundaes",
+        "items": [
+          {
+            "title": "Rocky Road",
+            "description": "Chocolate ice cream, sprouted salty almonds, marshmallows & chocolate sauce",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Gossip",
+            "description": "Vanilla ice cream, strawberries, cookie smash & caramel sauce",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Crime Scene",
+            "description": "Chocolate ‘icecream’, vanilla ice cream, crushed peanut alligator, cool whip & chocolate sauce",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Beegan", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Meltdown",
+            "description": "Vanilla ice cream, chocolate ‘ice cream’, walnut crumble, cashew bonkers & chocolate sauce",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Beegan", "Gluten Free", "Contains Nuts"]
+          }
+        ]
+      },
+      {
+        "category": "Drizzle",
+        "items": [
+          {
+            "title": "Chocolate Drizzle",
+            "description": "",
+            "price": 0,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Caramel Drizzle",
+            "description": "",
+            "price": 0,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Strawberry Drizzle",
+            "description": "",
+            "price": 0,
+            "imageUrl": "",
+            "tags": ["Beegan", "Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "Smoothies",
+        "items": [
+          {
+            "title": "Strawberries & Cream",
+            "description": "Strawberries, coconut cream, pumpkin m!lk & honey",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Raspberry Lips",
+            "description": "Dragonfruit, raspberry, coconut water & coconut nectar",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "PB&J",
+            "description": "Strawberries, peanut butter, banana, pumpkin m!lk & coconut nectar",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Piña Colada Smoothie",
+            "description": "Pineapple, coconut, vanilla & coconut blossom nectar",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Almond Butter Cup",
+            "description": "Almond m!lk, banana, cinnamon, vanilla & almond extract",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Chipmunk",
+            "description": "Banana, chocolate chips, pumpkin m!lk & cinnamon",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Peppermint Kiss",
+            "description": "Banana, spinach, pumpkin m!lk, fresh mint & vanilla",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Heavy Metal Detox Smoothie",
+            "description": "Blueberries, banana, cilantro, orange, spirulina & moringa",
+            "price": 500,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Forest Smoothie",
+            "description": "Banana, pineapple, mango & spinach",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Papaya Passion",
+            "description": "Papaya, passion fruit & coconut nectar",
+            "price": 400,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Chocolate Maca",
+            "description": "Cacao, maca, pumpkin m!lk, coconut & chocolate sauce",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Peaches & Cream",
+            "description": "Mango, papaya, almond m!lk & medicine flower peach essence",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Chia Berry Blast",
+            "description": "Chia, almond coconut cream, berries",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free", "Contains Nuts"]
+          },
+          {
+            "title": "Bee Here Now",
+            "description": "Mango, passion fruit, honey & bee pollen",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Mango Lassi",
+            "description": "Mango, coconut yogurt & coconut nectar",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Sunwarrior Protein Shake",
+            "description": "Blueberries, pumpkin m!lk, coconut, banana & sunwarrior active vanilla protein powder",
+            "price": 533,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Good Karma Protein",
+            "description": "Kale, flax, apple, banana, chia & Good Karma Sea Moss Cube (tested for heavy metals).",
+            "price": 500,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Top Up",
+            "description": "Add superfoods to any smoothie: spirulina, cacao nibs, carob powder, maca powder or chia seeds",
+            "price": 133,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "Milkshakes",
+        "items": [
+          {
+            "title": "Strawberry",
+            "description": "Strawberries, vanilla ice cream, cool whip & your choice of drizzle",
+            "price": 527,
+            "imageUrl": "",
+            "tags": ["Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Vanilla Bean",
+            "description": "Real vanilla bean shake with cool whip & your choice of drizzle",
+            "price": 500,
+            "imageUrl": "",
+            "tags": ["Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Reishi Chocolate",
+            "description": "Raw chocolate, coconut whip & your choice of drizzle",
+            "price": 500,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "Cold Pressed Juices",
+        "items": [
+          {
+            "title": "Classic Green",
+            "description": "Cucumber, parsley, spinach, kale, celery, bok choy",
+            "price": 460,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Juicy Fruit",
+            "description": "Pineapple, carrot, ginger & lime",
+            "price": 367,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Pure Celery",
+            "description": "The greatest healing tonic of all times. Drink on an empty stomach for maximum benefit",
+            "price": 593,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Aloha Cooler",
+            "description": "Pineapple, mint & cucumber",
+            "price": 333,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Green Giant (1 Litre)",
+            "description": "Cucumber, coconut water, bok choy, kale, spinach, parsley & celery",
+            "price": 793,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Classic Green Apple + Lime",
+            "description": "Cucumber, apple, parsley, spinach, kale, celery, bok choy, lime",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Local Orange",
+            "description": "Sweet oranges from Kintamani region in Bali",
+            "price": 433,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Pure",
+            "description": "Choose apple, pineapple, carrot, watermelon, or cucumber",
+            "price": 400,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Kiss Kiss",
+            "description": "Pineapple, beet, watermelon & lime",
+            "price": 333,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Virgin Mary",
+            "description": "Carrot, tomatoes, cucumber, lime & salt",
+            "price": 367,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Think Pink",
+            "description": "Pure watermelon",
+            "price": 400,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Spice Up",
+            "description": "Apple, pineapple, coconut water, lime & ginger",
+            "price": 367,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Ruby Mania",
+            "description": "Beet, carrot, apple & lime",
+            "price": 367,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "Coolers & Tonics",
+        "items": [
+          {
+            "title": "Lemon Squash",
+            "description": "Coconut kefir, lime, honey",
+            "price": 333,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Electrolyte",
+            "description": "Coconut water with ginger and lime",
+            "price": 267,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Ginger Ale",
+            "description": "Coconut kefir, apple juice, ginger",
+            "price": 327,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Virgin Tangerine Mojito",
+            "description": "Fresh tangerine juice, ice, honey & orange zest",
+            "price": 367,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Virgin Mojito",
+            "description": "Fresh mint, coconut water, lime, honey & ice",
+            "price": 267,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Tangy Turmeric Tonic",
+            "description": "Lime, ginger, turmeric, honey & pepper",
+            "price": 333,
+            "imageUrl": "",
+            "tags": ["Raw", "Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Cocobiotic",
+            "description": "Fermented coconut kefir",
+            "price": 300,
+            "imageUrl": "",
+            "tags": ["Raw", "Gluten Free"]
+          },
+          {
+            "title": "Mosaic Kombucha",
+            "description": "Dragon fruit / Mango",
+            "price": 367,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Kore Culture Lab Sourbucha",
+            "description": "Lychee, Digestive Wellness, Peach, Summer Berries",
+            "price": 400,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Kore Culture Lab Rootbeer",
+            "description": "Citrus flavoured root beer",
+            "price": 400,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Booster 1",
+            "description": "Ginger, cinnamon, clove cardamom, turmeric",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Booster 2",
+            "description": "Mint leaves, cinnamon, clove, black pepper, cardamom, goji berry",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Booster 3",
+            "description": "Rosella, cinnamon, goji berry, reishi, ginger",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Ginger Beer",
+            "description": "",
+            "price": 367,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Whole Coconut",
+            "description": "",
+            "price": 233,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Still / Sparkling Water (330 ml)",
+            "description": "",
+            "price": 133,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Still / Sparkling Water (750 ml)",
+            "description": "",
+            "price": 233,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Equil Water (380 ml)",
+            "description": "",
+            "price": 167,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Equil Water (760 ml)",
+            "description": "",
+            "price": 300,
+            "imageUrl": "",
+            "tags": []
+          }
+        ]
+      },
+      {
+        "category": "Coffee & Medicinal Chicory",
+        "items": [
+          {
+            "title": "Single Espresso",
+            "description": "Choose Arabica coffee or medicinal chaga blend. Oatmilk +10, decaf +11.",
+            "price": 133,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Double Espresso",
+            "description": "Choose Arabica coffee or medicinal chaga blend. Oatmilk +10, decaf +11.",
+            "price": 167,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Piccolo Latte",
+            "description": "Choose Arabica coffee or medicinal chaga blend. Oatmilk +10, decaf +11.",
+            "price": 233,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Cappuccino (Hot)",
+            "description": "Choose Arabica coffee or medicinal chaga blend.",
+            "price": 300,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Cappuccino (Iced)",
+            "description": "Choose Arabica coffee or medicinal chaga blend.",
+            "price": 333,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Bali Mocha Spice",
+            "description": "Coffee, cacao, cayenne & vegan m!lk of your choice",
+            "price": 367,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Flat White",
+            "description": "Choose Arabica coffee or medicinal chaga blend.",
+            "price": 300,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Latte (Hot)",
+            "description": "Choose Arabica coffee or medicinal chaga blend.",
+            "price": 300,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Latte (Iced)",
+            "description": "Choose Arabica coffee or medicinal chaga blend.",
+            "price": 333,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Long Black (Hot)",
+            "description": "Choose Arabica coffee or medicinal chaga blend.",
+            "price": 200,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Long Black (Iced)",
+            "description": "Choose Arabica coffee or medicinal chaga blend.",
+            "price": 233,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Dirty Chai Latte",
+            "description": "Coffee, chai spices & vegan m!lk of your choice",
+            "price": 367,
+            "imageUrl": "",
+            "tags": []
+          }
+        ]
+      },
+      {
+        "category": "Hot & Elixirs",
+        "items": [
+          {
+            "title": "Turmeric Latte",
+            "description": "Turmeric, cinnamon, coconut m!lk",
+            "price": 367,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Hot Chocolate",
+            "description": "Warm cacao, with coconut cream, pumpkin m!lk & coconut sugar",
+            "price": 333,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Matcha Latte",
+            "description": "Matcha with coconut m!lk",
+            "price": 367,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Pink Latte",
+            "description": "Frothy vanilla beet coconut m!lk with a hint of cardamom",
+            "price": 333,
+            "imageUrl": "",
+            "tags": ["Beegan", "Gluten Free"]
+          },
+          {
+            "title": "Chai Latte",
+            "description": "Chai spices & coconut m!lk",
+            "price": 333,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          },
+          {
+            "title": "Blue Lotus Blossom Tea",
+            "description": "Egyptian Blue Water Lilly infusion, supports heart & brain function, digestion & radiant skin",
+            "price": 200,
+            "imageUrl": "",
+            "tags": ["Gluten Free"]
+          }
+        ]
+      },
+      {
+        "category": "Teas",
+        "items": [
+          {
+            "title": "Goji Ginger Infusion",
+            "description": "Goji berries, ginger, lemongrass & lime",
+            "price": 200,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Fresh Mint Infusion",
+            "description": "Refreshing fresh peppermint leaves with lime",
+            "price": 200,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Calming Blue Sky",
+            "description": "Full of antioxidants to promote overall healthy cell life cycle. Caffeine free.",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Rosella Chai",
+            "description": "High in calcium & vitamin C, helps reduce bad cholesterol. Caffeine free.",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Time to Detox",
+            "description": "Helps flush toxins, reduce cravings & increase energy. Caffeine free.",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Slow Down",
+            "description": "Great for calming & reducing stress, soothing for the throat. Caffeine free.",
+            "price": 233,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Yerba Mate",
+            "description": "Leaves of the paraguariensis tree. Natural caffeine for energy & focus.",
+            "price": 233,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Focus",
+            "description": "Gotu kola & moringa for anxiety, memory, & eye health. Caffeine free.",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Digestive Wellness",
+            "description": "Promotes digestion & reduces bloating. Alleviates insomnia. Caffeine free.",
+            "price": 233,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Women's Balance",
+            "description": "High in vitamins & minerals, helps clear coughs & lower diabetes. Caffeine free.",
+            "price": 233,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Men's Balance",
+            "description": "Gotu kola, mint & lemongrass for memory & vitality. Caffeine free.",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          },
+          {
+            "title": "Start Button",
+            "description": "Energy-boosting tea with clove, ginger & cinnamon. Helps reduce flu symptoms. Caffeine free.",
+            "price": 267,
+            "imageUrl": "",
+            "tags": []
+          }
+        ]
+      }
+    ]
+  }
+  

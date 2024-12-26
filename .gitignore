@@ -1,0 +1,22 @@
+# Node.js dependencies
+/node_modules/
+
+# Build output
+/build/
+/dist/
+
+# React specific
+/.env
+/.idea/
+/*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Yarn lockfile (if using npm, uncomment the line below)
+# yarn.lock
