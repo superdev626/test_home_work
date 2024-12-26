@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Menu from './components/Menu';
 import Cart from './components/Cart';
 import MealSuggestion from './components/MealSuggestion';
-import './styles.css';
 import menuData from './Alchemy_Menu.json';
 
 const App = () => {
@@ -31,12 +30,26 @@ const App = () => {
   };
 
   return (
-    <div className="app">
-      <h1>{menuData.restaurant.name}</h1>
-      <p>{menuData.restaurant.description}</p>
-      <Cart cart={cart} removeFromCart={removeFromCart} />
-      <MealSuggestion menu={menuData.menu} />
-      <Menu menu={menuData.menu} addToCart={addToCart} />
+    <div className="container">
+      <header>
+        <h1>{menuData.restaurant.name}</h1>
+        <p>{menuData.restaurant.description}</p>
+      </header>
+
+      {/* Menu Section */}
+      <div className="menu">
+        <Menu menu={menuData.menu} addToCart={addToCart} />
+      </div>
+
+      {/* Cart and Meal Suggestion Section */}
+      <div className="cart-suggestion">
+        <div className="cart">
+          <Cart cart={cart} removeFromCart={removeFromCart} />
+        </div>
+        <div className="suggestion">
+          <MealSuggestion menu={menuData.menu} />
+        </div>
+      </div>
     </div>
   );
 };

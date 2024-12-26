@@ -1,19 +1,161 @@
-.app {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  .menu-category, .cart, .meal-suggestion {
-    margin-bottom: 20px;
-  }
-  
-  .menu-item, .cart-item {
-    margin-bottom: 10px;
-  }
-  
-  button {
-    margin-left: 10px;
-  }
-  
+/* General Body Styling */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7fa;
+}
+
+/* Main Container */
+.container {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  padding: 20px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* Header Styles */
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  color: #666;
+  font-size: 1rem;
+}
+
+/* Menu Styling */
+.menu {
+  flex: 1;
+  min-width: 300px;
+}
+
+/* Menu Item Styling */
+.menu-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  margin-bottom: 15px;
+}
+
+.menu-item:hover {
+  transform: scale(1.02);
+}
+
+.menu-item h3 {
+  color: #333;
+  font-size: 1.25rem;
+}
+
+.menu-item p {
+  color: #777;
+  font-size: 0.95rem;
+}
+
+.menu-item .price {
+  font-weight: bold;
+  color: #007BFF;
+}
+
+button.add-to-cart {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.add-to-cart:hover {
+  background-color: #218838;
+}
+
+/* Cart and Suggestion Section Styling */
+.cart, .suggestion {
+  background-color: #fff;
+  padding: 20px;
+  margin-top: 70px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+}
+
+.cart h2, .suggestion h2 {
+  font-size: 1.75rem;
+  color: #333;
+}
+
+.cart ul, .suggestion ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.cart ul li, .suggestion ul li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 8px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.cart ul li span, .suggestion ul li {
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Cart Item Remove Button */
+button.remove-item {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.remove-item:hover {
+  background-color: #c82333;
+}
+
+/* Meal Suggestion Styles */
+.suggestion input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.suggestion button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.suggestion button:hover {
+  background-color: #0056b3;
+}
+
+/* Cart Total Styling */
+.total {
+  margin-top: 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #007BFF;
+}
